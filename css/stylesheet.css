@@ -48,6 +48,8 @@ border: 5px solid ; color: chartreuse;}
   height: auto;
   border-radius: 1000%;
 
+  
+
 }
 #edu{
   display: flex;
@@ -181,3 +183,41 @@ border: 5px solid ; color: chartreuse;}
 
                       }
                     }
+
+                    nav{
+                      display: flex;
+                      width: 80%;
+                      margin: auto;
+                      padding: 20px 0;
+                      align-items: center;
+                      justify-content: space-between;
+                    }
+                    nav ul li {
+                      display: inline-block;
+                      text-decoration: none;
+                      margin: 10px 20px;
+                      color: black;
+                      font-weight: bold;
+
+                    }
+                    nav ul li a:hover{
+                      color: green;
+                    }
+
+                    @keyframes animatedSquare {
+                      0%   {border-radius: 0%;}
+                      25%  {border-radius: 100%;}
+                      50%  {background-color: blue;}
+                      100% {background-color: green;}
+                    }
+                    
+                    
+                    div .mww {
+                      width: 100px;
+                      height: 100px;
+                      background-color: red;
+                      animation-name: animatedSquare;
+                      animation-duration: 20s;
+                      animation-iteration-count: infinite;    
+                    } 
+                  
